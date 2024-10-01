@@ -1,0 +1,13 @@
+1.Lớp Vehicle:
+Vai trò: Đại diện cho phương tiện, bao gồm biển số xe và loại xe (ô tô, xe máy).
+Chức năng: Lưu trữ và cung cấp thông tin về phương tiện (biển số, loại xe).
+
+2.Lớp Ticket:
+Vai trò: Đại diện cho vé vào bãi đỗ, kết nối giữa phương tiện và thời gian vào.
+Chức năng: Lưu trữ ID vé, thông tin phương tiện, thời gian vào, và vị trí đỗ.
+
+3.Lớp ParkingLot:
+Vai trò: Quản lý bãi đỗ xe, bao gồm các vé và chỗ đỗ.
+Chức năng:
+Xử lý check-in: gán chỗ đỗ, phát vé.
+Xử lý check-out: tính phí dựa trên thời gian đỗ, hiển thị thời gian ra/vào.
