@@ -11,15 +11,15 @@ public class Employee {
     private String position;   
     private double salary;     
     private String shift;
-public void add(Employee employee) {
-}
-
-public void update(String employeeID, Employee updatedEmployee) {
-  
-}
-
-public void remove(String employeeID) {   
-}
+    public void add(Employee employee) {
+    }
+    
+    public void update(String employeeID, Employee updatedEmployee) {
+      
+    }
+    
+    public void remove(String employeeID) {   
+    }
 }
 
 
