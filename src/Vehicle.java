@@ -1,17 +1,23 @@
 public class Vehicle {
+    private String vehicleID;
+    private String vehicleType;
     private String licensePlate;
-    private String type; // vehicle type: car or motorbike
+    private Date entryTime;
+    private Date exitTime;
 
-    public Vehicle(String licensePlate, String type) {
-        this.licensePlate = licensePlate;
-        this.type = type;
+    public String getVehicleID() {
+        return vehicleID;
     }
 
-    public String getLicensePlate() {
-        return licensePlate;
+    public String getVehicleType() {
+        return vehicleType;
+    }
+    public void setEntryTime(Date entryTime) {
+        this.entryTime = entryTime;
     }
 
-    public String getType() {
-        return type;
-    }
+    public void setExitTime(Date exitTime) {
+        this.exitTime = exitTime;
+    } 
+
 }
