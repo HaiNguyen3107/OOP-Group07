@@ -1,31 +1,16 @@
-import java.util.Date;
-
 public class Ticket {
-    private String ticketId;
-    private Vehicle vehicle;
-    private Date entryTime;
-    private String parkingSpot; // parking spot (e.g., 1A, 2A, etc.)
+    private String ticketID;
+    private Vehicle car;
+    private Date issueTime;
+    private Date expiryTime;
 
-    public Ticket(String ticketId, Vehicle vehicle, String parkingSpot) {
-        this.ticketId = ticketId;
-        this.vehicle = vehicle;
-        this.entryTime = new Date(); // get the current time
-        this.parkingSpot = parkingSpot;
+    public void generateTicket(Vehicle car){
+
     }
+    public boolean isValid(){
 
-    public String getTicketId() {
-        return ticketId;
     }
+    public String getTicketInfo(){
 
-    public Vehicle getVehicle() {
-        return vehicle;
-    }
-
-    public Date getEntryTime() {
-        return entryTime;
-    }
-
-    public String getParkingSpot() {
-        return parkingSpot;
     }
 }
