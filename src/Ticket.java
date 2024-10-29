@@ -1,16 +1,36 @@
-public class Ticket {
-    private String ticketID;
-    private Vehicle car;
-    private Date issueTime;
-    private Date expiryTime;
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
-    public void generateTicket(Vehicle car){
 
+public class Ticket extends Vehicle {
+    private boolean isMonthlyTicket;
+    private LocalDateTime monthlyTicketExpiryDate;
+    private static List<Ticket> tickets = new ArrayList<>();
+
+    
+    public Ticket(String licensePlate, String vehicleType, LocalDateTime entryTime, boolean isMonthlyTicket, LocalDateTime expiryDate) {
+      
     }
-    public boolean isValid(){
 
+    
+    private void registerMonthlyTicket() {
+        
     }
-    public String getTicketInfo(){
 
+    
+    @Override
+    protected void calculateParkingFee() {
+     
+    }
+
+    
+    public static void displayAllTickets() {
+       
+    }
+
+    @Override
+    public String toString() {
+        
     }
 }
