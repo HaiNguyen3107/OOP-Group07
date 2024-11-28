@@ -66,7 +66,7 @@
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="2" name="C:\Users\thang\OneDrive\Desktop\download-icon-left+previous+icon-1320166862746760425_24.png"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Dang Xuat"/>
+            <Property name="text" type="java.lang.String" value="&#x110;&#x103;ng Xu&#x1ea5;t"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
@@ -92,13 +92,12 @@
               <Group type="102" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jButton10" min="-2" pref="128" max="-2" attributes="0"/>
                       <Component id="jButton8" alignment="0" min="-2" pref="128" max="-2" attributes="0"/>
                       <Component id="jButton7" alignment="0" min="-2" pref="128" max="-2" attributes="0"/>
                       <Component id="jButton6" alignment="0" min="-2" pref="128" max="-2" attributes="0"/>
                       <Component id="jButton5" alignment="0" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="16" max="32767" attributes="0"/>
+                  <EmptySpace pref="14" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -113,33 +112,18 @@
                   <Component id="jButton7" min="-2" pref="70" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="jButton8" min="-2" pref="70" max="-2" attributes="0"/>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jButton10" min="-2" pref="70" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JButton" name="jButton10">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/icon/icons8_information_32px.png"/>
-            </Property>
-            <Property name="text" type="java.lang.String" value="Thong Tin"/>
-            <Property name="horizontalTextPosition" type="int" value="0"/>
-            <Property name="verticalTextPosition" type="int" value="3"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton10ActionPerformed"/>
-          </Events>
-        </Component>
         <Component class="javax.swing.JButton" name="jButton8">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/icon/icons8_bank_cards_32px.png"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Quan Ly Ve Ngay"/>
+            <Property name="text" type="java.lang.String" value="Qu&#x1ea3;n L&#xfd; V&#xe9; Ng&#xe0;y"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
@@ -152,7 +136,7 @@
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/icon/icons8_scorecard_32px.png"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Thong Ke"/>
+            <Property name="text" type="java.lang.String" value="Th&#x1ed1;ng K&#xea;"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
@@ -165,7 +149,7 @@
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/icon/icons8_parking_32px_1.png"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Quan Ly Bai Xe"/>
+            <Property name="text" type="java.lang.String" value="Qu&#x1ea3;n L&#xfd; B&#xe3;i Xe"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
@@ -181,7 +165,7 @@
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/icon/icons8_management_32px.png"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Quan Ly Nhan vien"/>
+            <Property name="text" type="java.lang.String" value="Qu&#x1ea3;n L&#xfd; Nh&#xe2;n Vi&#xea;n"/>
             <Property name="autoscrolls" type="boolean" value="true"/>
             <Property name="horizontalAlignment" type="int" value="2"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -282,20 +266,20 @@
         </Container>
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Loai Ve"/>
+            <Property name="text" type="java.lang.String" value="Lo&#x1ea1;i V&#xe9;"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel5">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Loai Xe"/>
+            <Property name="text" type="java.lang.String" value="Lo&#x1ea1;i Xe"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JComboBox" name="jComboBox1">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="2">
-                <StringItem index="0" value="Oto"/>
-                <StringItem index="1" value="Xe May"/>
+                <StringItem index="0" value="&#xd4; t&#xf4;"/>
+                <StringItem index="1" value="Xe m&#xe1;y"/>
               </StringArray>
             </Property>
           </Properties>
@@ -310,8 +294,8 @@
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="2">
-                <StringItem index="0" value="Ve Thang"/>
-                <StringItem index="1" value="Ve Ngay"/>
+                <StringItem index="0" value="V&#xe9; Th&#xe1;ng"/>
+                <StringItem index="1" value="V&#xe9; Ng&#xe0;y"/>
               </StringArray>
             </Property>
           </Properties>

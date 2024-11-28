@@ -26,11 +26,15 @@ public class AdminUI4 extends javax.swing.JFrame {
             
         };
         jTable1.setModel(defaulttable);
-         defaulttable.addColumn("ID");
-         defaulttable.addColumn("Ten Nhan Vien");
-         defaulttable.addColumn("So Dien Thoai");
-         defaulttable.addColumn("Tai Khoan");
-         defaulttable.addColumn("Mat Khau");
+        defaulttable.addColumn("Loại Xe");
+         defaulttable.addColumn("Biển Số Xe");
+         defaulttable.addColumn("Màu Xe");
+         defaulttable.addColumn("Ngày Nhận");
+         defaulttable.addColumn("Giờ Nhận");
+         defaulttable.addColumn("Ngày Trả");
+         defaulttable.addColumn("Giờ Trả");
+         defaulttable.addColumn("Số Tiền");
+         
     }
 
     /**
@@ -45,7 +49,6 @@ public class AdminUI4 extends javax.swing.JFrame {
         jPanel3 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
-        jButton10 = new javax.swing.JButton();
         jButton8 = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
@@ -72,7 +75,7 @@ public class AdminUI4 extends javax.swing.JFrame {
         jPanel3.setForeground(new java.awt.Color(255, 102, 102));
 
         jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\thang\\OneDrive\\Desktop\\download-icon-left+previous+icon-1320166862746760425_24.png")); // NOI18N
-        jButton1.setText("Dang Xuat");
+        jButton1.setText("Đăng Xuất");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -100,18 +103,8 @@ public class AdminUI4 extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(255, 51, 51));
 
-        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/icons8_information_32px.png"))); // NOI18N
-        jButton10.setText("Thong Tin");
-        jButton10.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton10.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jButton10.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton10ActionPerformed(evt);
-            }
-        });
-
         jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/icons8_bank_cards_32px.png"))); // NOI18N
-        jButton8.setText("Quan Ly Ve Ngay");
+        jButton8.setText("Quản Lý Vé Ngày");
         jButton8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton8.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jButton8.addActionListener(new java.awt.event.ActionListener() {
@@ -121,7 +114,7 @@ public class AdminUI4 extends javax.swing.JFrame {
         });
 
         jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/icons8_scorecard_32px.png"))); // NOI18N
-        jButton7.setText("Thong Ke");
+        jButton7.setText("Thống Kê");
         jButton7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton7.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -131,7 +124,7 @@ public class AdminUI4 extends javax.swing.JFrame {
         });
 
         jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/icons8_parking_32px_1.png"))); // NOI18N
-        jButton6.setText("Quan Ly Bai Xe");
+        jButton6.setText("Quản Lý Bãi Xe");
         jButton6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton6.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -142,7 +135,7 @@ public class AdminUI4 extends javax.swing.JFrame {
 
         jButton5.setBackground(new java.awt.Color(255, 255, 102));
         jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/icons8_management_32px.png"))); // NOI18N
-        jButton5.setText("Quan Ly Nhan vien");
+        jButton5.setText("Quản Lý Nhân Viên");
         jButton5.setAutoscrolls(true);
         jButton5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jButton5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -161,12 +154,11 @@ public class AdminUI4 extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton5))
-                .addContainerGap(16, Short.MAX_VALUE))
+                .addContainerGap(14, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -179,9 +171,7 @@ public class AdminUI4 extends javax.swing.JFrame {
                 .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(29, 29, 29))
+                .addGap(117, 117, 117))
         );
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 150, 680));
@@ -203,18 +193,18 @@ public class AdminUI4 extends javax.swing.JFrame {
         jTable1.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         jScrollPane1.setViewportView(jTable1);
 
-        jButton11.setText("Tim Kiem");
+        jButton11.setText("Tìm Kiếm");
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel2.setText("Loai xe");
+        jLabel2.setText("Loại Xe");
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Ô tô", "Xe máy" }));
 
-        jLabel1.setText("Tu:");
+        jLabel1.setText("Từ");
 
-        jLabel3.setText("Den:");
+        jLabel3.setText("Đến");
 
-        jLabel4.setText("Tong Xe:");
+        jLabel4.setText("Tổng Xe:");
 
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -222,7 +212,7 @@ public class AdminUI4 extends javax.swing.JFrame {
             }
         });
 
-        jLabel5.setText("Tong Tien:");
+        jLabel5.setText("Tổng Tiền:");
 
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -311,12 +301,6 @@ public class AdminUI4 extends javax.swing.JFrame {
         this.dispose();
     }//GEN-LAST:event_jButton6ActionPerformed
 
-    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
-        // TODO add your handling code here:
-        new AdminUI6().setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_jButton10ActionPerformed
-
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         // TODO add your handling code here:
         
@@ -339,8 +323,7 @@ public class AdminUI4 extends javax.swing.JFrame {
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         // TODO add your handling code here:
-         new AdminUI6().setVisible(true);
-        this.dispose();
+      
     }//GEN-LAST:event_jButton8ActionPerformed
 
     /**
@@ -395,7 +378,6 @@ public class AdminUI4 extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
