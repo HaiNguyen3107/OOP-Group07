@@ -222,3 +222,7 @@ Install my-project with npm
 - [Phan Danh Hùng](https://github.com/songkang04)
 - [Nguyễn Phương Nam](https://github.com/HaiNguyen3107)
 
+
+## UML
+
+![UML Diagram](https://github.com/HaiNguyen3107/OOP-Group07/blob/master/UML.svg)
