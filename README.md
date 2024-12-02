@@ -31,54 +31,25 @@ Admin Dashboard
     - Java Swing (for GUI, if applicable)
     - JDBC (for database integration)
     - Jcalender
+## Usage
+
+**1. Employee Flow**
+    
+- Login: Employee can log in. 
+- Pickup Car: Vehicle information and ticket information.
+- Return Car: Billing and payment.
+- Monthly ticket registration.
+- Account management.
+
+**2. Admin Flow**
+- Employee management:Create Employee account.
+- Statistics: Parking and monthly ticket statistics.
+
+
 ## Project Structure
 
 ```
 📦CarePark
- ┣ 📂.git
- ┃ ┣ 📂hooks
- ┃ ┃ ┣ 📜applypatch-msg.sample
- ┃ ┃ ┣ 📜commit-msg.sample
- ┃ ┃ ┣ 📜fsmonitor-watchman.sample
- ┃ ┃ ┣ 📜post-update.sample
- ┃ ┃ ┣ 📜pre-applypatch.sample
- ┃ ┃ ┣ 📜pre-commit.sample
- ┃ ┃ ┣ 📜pre-merge-commit.sample
- ┃ ┃ ┣ 📜pre-push.sample
- ┃ ┃ ┣ 📜pre-rebase.sample
- ┃ ┃ ┣ 📜pre-receive.sample
- ┃ ┃ ┣ 📜prepare-commit-msg.sample
- ┃ ┃ ┣ 📜push-to-checkout.sample
- ┃ ┃ ┣ 📜sendemail-validate.sample
- ┃ ┃ ┗ 📜update.sample
- ┃ ┣ 📂info
- ┃ ┃ ┗ 📜exclude
- ┃ ┣ 📂logs
- ┃ ┃ ┣ 📂refs
- ┃ ┃ ┃ ┣ 📂heads
- ┃ ┃ ┃ ┃ ┗ 📜master
- ┃ ┃ ┃ ┗ 📂remotes
- ┃ ┃ ┃ ┃ ┗ 📂origin
- ┃ ┃ ┃ ┃ ┃ ┗ 📜HEAD
- ┃ ┃ ┗ 📜HEAD
- ┃ ┣ 📂objects
- ┃ ┃ ┣ 📂info
- ┃ ┃ ┗ 📂pack
- ┃ ┃ ┃ ┣ 📜pack-d0b7501707204093c9c68aed69fdd9b69b1aac76.idx
- ┃ ┃ ┃ ┣ 📜pack-d0b7501707204093c9c68aed69fdd9b69b1aac76.pack
- ┃ ┃ ┃ ┗ 📜pack-d0b7501707204093c9c68aed69fdd9b69b1aac76.rev
- ┃ ┣ 📂refs
- ┃ ┃ ┣ 📂heads
- ┃ ┃ ┃ ┗ 📜master
- ┃ ┃ ┣ 📂remotes
- ┃ ┃ ┃ ┗ 📂origin
- ┃ ┃ ┃ ┃ ┗ 📜HEAD
- ┃ ┃ ┗ 📂tags
- ┃ ┣ 📜config
- ┃ ┣ 📜description
- ┃ ┣ 📜HEAD
- ┃ ┣ 📜index
- ┃ ┗ 📜packed-refs
  ┣ 📂src
  ┃ ┣ 📂DAO
  ┃ ┃ ┣ 📜BaiXeDAO.java
@@ -134,30 +105,6 @@ Admin Dashboard
  ┗ 📜UML.svg
 
 ```
-## Installation
-
-Install my-project with npm
-
-```bash
-  git clone https://github.com/HaiNguyen3107/OOP-Group07
-  cd OOP-Group07
-```
-    
-## Usage
-
-**1. Employee Flow**
-    
-- Login: Employee can log in. 
-- Pickup Car: Vehicle information and ticket information.
-- Return Car: Billing and payment.
-- Monthly ticket registration.
-- Account management.
-
-**2. Admin Flow**
-- Employee management:Create Employee account.
-- Statistics: Parking and monthly ticket statistics.
-
-
 ## UML
 
 ![UML Diagram](https://github.com/HaiNguyen3107/OOP-Group07/blob/master/UML.svg)
