@@ -115,5 +115,5 @@ Admin Dashboard
 - [Tăng Minh Quang](https://github.com/whyalwaysme2x)
 - [Nguyễn Hồng Thăng](https://github.com/Thang7804)
 - [Phan Danh Hùng](https://github.com/songkang04)
-- [Nguyễn Phương Nam](https://github.com/HaiNguyen3107)
+- [Nguyễn Phương Nam](https://github.com/Nam2312)
 
